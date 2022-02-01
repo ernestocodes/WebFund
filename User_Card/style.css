@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.user-card{
+    width: 100%;
+    border: 2px solid lightgray;
+    border-radius:5px;
+    overflow:hidden;
+}
+.card-banner{
+    height: 90px;
+    background-color: rgb(65, 169, 230)
+}
+
+.bio{
+    margin-top: 45px;
+    margin-left: 20px;
+    width: 100%;
+    font-family: cursive;
+    margin-bottom: 15px;
+}
+
+.profile-pic{
+    height:100px;
+    width:100px;
+    padding: 3px;
+    background-color: white;  
+    border-radius: 50%;
+    border: 2px solid lightgray;
+    margin-top: 25px; 
+    margin-left: 20px; 
+
+}
+
+.map-marker{ 
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+.map-font{
+    font-size: 20px;
+}
+.h1{
+    font-size: 10px;
+}
+.map-marker{
+    height: 16px;
+}
+
+.gear{
+    height:15px;
+    padding-right: 10px;
+}
+
+.edit-profile{
+    color:rgb(30, 129, 211);
+    text-decoration: underline;
+}
+
+.name, .map-font, .info, .edit-profile{
+    margin-top: 10px;
+}
