@@ -6,5 +6,5 @@ var likesElement = [
 
 function liked(id){
     likes[id]++;
-    likesElement[id].innerHTML = likes[id] + " like(s)";
+    likesElement[id].innerHTML = likes[id] + " like(s";
 }
