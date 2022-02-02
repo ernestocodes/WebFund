@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="profile-page">
+    <div class="nav">
+        <h1 class="nav-title">Profile</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">My Profile</a></li>
+            <li><a href="#">Find Connections</a></li>
+        </ul>
+        <button class="btn">Sign Out</button>
+    </div>
+    <div class="container">
+        <div class="user-card">
+            <div class= "card-banner">
+                <img src="./icons/user-circle.png" alt="Profile Pic" class= "profile-pic">
+            </div>
+            <div class="bio">
+                <h1 class="name">Jane Doe</h1>
+                <p class="map-font"><img src= "./icons/map-marker.png" alt="Map Marker" class="map-marker">Seattle</p>
+                <p class="info">Developer ┃ Engineer ┃ Problem Solver <br> Master of shadows and the Internet!</p>
+                <p class="edit-profile"><img src="./icons/gear.png" alt="gear" class="gear">edit profile</p>
+            </div>
+        </div>
+    </div>
+    <div class="requests-container">
+        <h1 class="requests"><span >2</span> Connection Requests</h1>
+        <ul class="requests-list">
+            <li class="other-prof"><img src=".\images\todd-s.jpg" alt="Todd E" class="todd"></li>
+            <label class="req-label">Todd E</label>
+            <img src="./icons/accept-circle.png" alt="accept" class="accept">
+            <img src= "./icons/close-circle.png" alt="deny" class="deny">
+            <li class="other-prof"><img src="./images/phil-s.jpg" alt="Phil K" class="phil"></li>
+            <label class="req-label">Phil K</label>
+            <img src="./icons/accept-circle.png" alt="accept" class="accept">
+            <img src= "./icons/close-circle.png" alt="deny" class="deny">
+        </ul>
+    </div>
+    <div class="education-container">
+        <h1 class="education">Education</h1>
+        <h2> Coding-Dojo - Full Stack Bootcamp<h2>
+        <p class="date-range">Dec 2019-March 2020</p>
+        <p>Triple black belt in Python, MERN, and C#...</p>
+    </div>
+    <div class= "connections-container">
+        <h1 class="connection-header"><span class="num-connections">500+</span>Your Connections</h1>
+        <ul class="list-connections">
+            <li><img src="./images/adrien-s.jpg" alt="Adrien D" class="adrien"></li>
+            <label>Adrien D</label>
+            <li><img src="./images/anne-s.jpg" alt="Anne J" class="anne"></li>
+            <label>Anne J</label>
+            <li><img src="./images/alayne-s.jpg" alt="Alayne T" class="alayne"></li>
+            <label>Alayne T</label>
+            <li><img src="./images/arry-s.jpg" alt="Arry Y" class="arry"></li>
+            <label>Arry Y</label>
+        </ul>
+        <a href="#" class="view-more">
+            View More</a>
+    </div>
+</div>
+</body>
+</html>

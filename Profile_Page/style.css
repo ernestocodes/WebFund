@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+
+body{
+    font-family: 'Roboto', sans-serif
+}
+
+.profile-page{
+    width:1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.nav{
+    width: 1000px;
+    background-color:black;
+    display:flex;
+    justify-content:space-between;
+    color: white;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.nav-links{
+    width: 300px;
+    display:flex;
+    justify-content:space-around;
+    align-items:left;
+    margin-right: 500px;
+    list-style-type: none;
+}
+
+li a{
+    text-decoration:none;
+    color:white;
+    
+}
+
+button{
+    font-size: 16px;
+    font-weight: bold;
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: #17a2b8;
+    margin-right: 20px;
+}
+
+.container{
+    width: 600px;
+    margin-right: 30px;
+}
+
+.user-card{
+    width: 100%;
+    border: 2px solid lightgray;
+    border-radius:5px;
+    overflow:hidden;
+}
+
+.card-banner{
+    height: 90px;
+    background-color: rgb(65, 169, 230)
+}
+
+.bio{
+    margin-top: 45px;
+    margin-left: 20px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.profile-pic{
+    height:100px;
+    width:100px;
+    padding: 3px;
+    background-color: white;  
+    border-radius: 50%;
+    border: 2px solid lightgray;
+    margin-top: 25px; 
+    margin-left: 20px; 
+}
+
+.map-marker{ 
+    padding-right: 10px;
+    font-size: 30px;
+    height: 16px;
+}
+
+.map-font{
+    font-size: 20px;
+}
+
+.name{
+    font-size: 30px;
+}
+
+.gear{
+    height:15px;
+    padding-right: 10px;
+}
+
+.edit-profile{
+    color:rgb(30, 129, 211);
+    text-decoration: underline;
+}
+
+.name, .map-font, .info, .edit-profile{
+    margin-top: 10px;
+}
+
+.requests-container{
+    width: 350px;
+    height: 225px;
+    border: 2px solid #d1d1d1;
+    border-radius:5px;
+    overflow:hidden;
+}
+
+.requests{
+    text-align:center;
+    font-size: 20px;
+    color: white;
+    padding: 10px 0px;
+    background-color:#333;
+}
+.requests span{
+    background-color:#cccccc;
+    color: black;
+    border-radius: 50%;
+    padding: 0px 6px 0px 6px;
+    margin-left: 10px;
+}
+
+.requests-list{
+    list-style-type: none;
+    font-weight:bold;
+    font-size:20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.todd, .phil, .adrien, .anne, .alayne, .arry{
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    border-radius: 50%;
+    border:2px solid black;
+}
+
+.other-prof{
+    margin-top: 20px;
+}
+
+.req-label{
+    width:80px;
+    text-align:center;
+    padding-top: 35px;
+}
+
+.accept, .deny{
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+}
+
+.accept{
+    margin-left: 70px;
+    margin-right: 10px;
+}
+
+.education-container{
+    width: 600px;
+    height:175px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    overflow:hidden;
+    margin-top: 30px;
+}
+
+.education{
+    background-color: #333;
+    color:white;
+    font-size: 18px;
+    padding-left: 35px;
+    display:flex;
+    align-items:center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.education-container h2{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.education-container p{
+    font-size:16px;
+}
+
+.date-range{
+    color:#6f6f6f;
+    margin-bottom:10px;
+}
+
+.connections-container{
+    width:350px;
+    height: auto;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    overflow:hidden;
+    margin-left: 25px;
+    margin-top: -50px;
+}
+
+.connection-header{
+    background-color:#333;
+    color: white;
+    text-align:center;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.num-connections{
+    background-color:#cccccc;
+    color: black;
+    border-radius: 50%;
+    padding: 0px 6px 0px 6px;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+.list-connections{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.list-connections label{
+    width: 250px;
+    padding-top: 35px;
+    margin-left:15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.adrien, .anne, .alayne, .arry{
+    margin-top: 15px;
+}
+
+.view-more{
+    display:block;
+    width: 100%;
+    border: 2px;
+    border-style: solid hidden hidden hidden;
+    border-color: lightgray;
+    padding: 10px;
+    color:#21609c;
+}
+
